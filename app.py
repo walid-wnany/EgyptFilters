@@ -71,7 +71,7 @@ with b:
     with y:
         st.markdown('<div class="stat"><strong>+1000</strong>عملية صيانة وتركيب</div><div class="stat"><strong>100%</strong>اهتمام بالعميل</div>',unsafe_allow_html=True)
 
-st.markdown(f'<div class="contact"><h2>📞 اطلب خدمة الآن</h2><p>املأ البيانات وسنتواصل معك لتأكيد موعد الخدمة.</p><p><b>الهاتف:</b> {PHONE} &nbsp; | &nbsp; <b>واتساب:</b> {PHONE}</p></div>',unsafe_allow_html=True)
+st.markdown(f'<div class="contact"><h2>📞 اطلب خدمة الآن</h2><p>املأ البيانات وسنتواصل معك لتأكيد موعد الخدمة.</p><p><b>الهاتف:</b> {PHONE} &nbsp; | &nbsp; <b>واتساب:</b> {WHATSAPP}</p></div>',unsafe_allow_html=True)
 
 with st.form("service_form"):
     st.subheader("📝 طلب خدمة")
